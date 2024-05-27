@@ -11,6 +11,44 @@ Within the Resources Folder:
 - contacts.xlsx
 - crowdfunding.xlsx
 
+Database Type for Final Production Environment
+Description: The project includes specifying the database type for the final production environment, which will store and manage the cleaned and processed data.
+
+Database Type: Relational (SQL)
+
+Data Cleaning and Processing
+The data cleaning and processing tasks are performed using Jupyter Notebook, leveraging the following packages:
+
+pandas for data manipulation and analysis.
+numpy for numerical operations.
+datetime for date and time operations.
+
+Data Loading
+Tool Used: pgAdmin
+
+The cleaned data will be loaded into a relational database using pgAdmin for efficient storage and management. Additionally, an Entity Relationship Diagram (ERD) will be created using a tool such as Quick Database Diagrams to provide a visual representation of the database structure, enhancing our understanding of the relationships between different tables.
+
+![ER Diagram](https://github.com/w7negreiros/ETL_Project_Crowfunding/assets/161100536/4e1a07cd-d892-4fd9-8624-d6dcdcba5bf2)
+
+# Findings
+Category Analysis:
+- The "theater" category had the highest success rate.
+- "Journalism" and "games" categories had relatively low success rates.
+Subcategory Insights:
+-The "plays" subcategory had the highest number of successful projects, with 187 out of 319 projects being successful, indicating a high success rate.
+Pledged Amounts:
+- The "theater" category had the highest total pledged amount, with $15,763,227.
+- Other high-ranking categories included "film & video", "music", "publishing", and "technology", indicating substantial crowdfunding support.
+- Categories such as "journalism" and "games" had lower pledged amounts, reflecting less support.
+Geographical Distribution:
+- The United States (US) had the highest sum of pledged amounts, totaling $31,409,336.
+- Canada (CA) followed with $2,812,788, and the United Kingdom (GB) with $2,192,705, indicating significant crowdfunding activity in these countries.
+
+# Conclusion
+The data analysis reveals that "theater", "film & video", and "music" are the most successful categories in terms of crowdfunding projects, while "journalism" and "games" have relatively lower success rates. Similarly, subcategories like "plays", "photography books", "web", "food trucks", and "wearables" exhibit high success rates. In contrast, "audio", "science fiction", and "world music" have lower success rates. Geographically, the United States, Canada, and the United Kingdom show the highest total sums of pledged amounts, indicating robust crowdfunding support in these regions.
+
+Overall, this ETL project demonstrates the importance of efficient data extraction, transformation, and loading processes in deriving actionable insights and understanding data trends across various categories and regions.
+
 # Instructions
 The instructions for this mini project are divided into the following subsections:
 
