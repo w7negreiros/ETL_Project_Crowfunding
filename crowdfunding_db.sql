@@ -36,7 +36,3 @@ CREATE TABLE campaign (
 	CONSTRAINT "primary_campaign" PRIMARY KEY ("cf_id")	
 );
 
-select * from contacts;
-select * from category;
-select * from subcategory;
-select * from campaign;
