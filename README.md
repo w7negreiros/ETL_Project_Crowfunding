@@ -3,7 +3,7 @@
 # Introduction
 ETL (Extract, Transform, and Load) is a fundamental process in data management, crucial for anyone working with data. In real-world scenarios, data is ubiquitous and often dispersed across multiple sources, frequently in an unorganized state. Mastering ETL processes enables you to have clean, up-to-date, and accurate data, empowering you to become proficient in your data. This proficiency allows you to manipulate data types, resolve formatting issues, and create additional columns to enrich the data, ultimately facilitating meaningful insights.
 
-In this project, I will demonstrate the ETL process using specific datasets. The steps involve extracting data from various sources, transforming it to meet analytical needs, and loading it into a final database for storage and analysis.
+In this project, we will demonstrate the ETL process using specific datasets. The steps involve extracting data from various sources, transforming it to meet analytical needs, and loading it into a final database for storage and analysis.
 
 # Sources of Data
 Within the Resources Folder:
