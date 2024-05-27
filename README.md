@@ -110,3 +110,5 @@ The instructions for this mini project are divided into the following subsection
 * To convert the "launch_date" and "end_date" UTC times to the "datetime" format, see the "Transform_Grocery_Orders_Solved.ipynb" activity solution.
 
 * For more information about how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign DataFrame, see the "     pandas.DataFrame.merge" in the Pandas documentation.
+
+<img src=C:\Users\willy\OneDrive\Documentos\GitHub\ETL_Project_Crowfunding\ER Diagram.png>
