@@ -11,7 +11,7 @@ Within the Resources Folder:
 - contacts.xlsx
 - crowdfunding.xlsx
 
-Database Type for Final Production Environment
+# Database Type for Final Production Environment
 Description: The project includes specifying the database type for the final production environment, which will store and manage the cleaned and processed data.
 
 Database Type: Relational (SQL)
